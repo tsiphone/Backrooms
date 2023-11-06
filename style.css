@@ -1,0 +1,100 @@
+
+/* cambio en el body para color y margen */
+body{
+	margin: auto 0;
+	background: black;
+}
+
+
+
+/* esta parte cambia el menu superior*/
+
+.sticky{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.area{
+	color: white;
+	font-size: 2em;
+	cursor: pointer;
+}
+
+.menu{
+	background: black;
+}
+
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+.uppermenu{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+	list-style: none;
+	font-size: 0.8em;
+	margin: 0;
+}
+
+/* esto es la imagen responsiva de los backrooms*/
+
+.content{
+background: url(images/lvl0.jpg) no-repeat center center fixed;
+}
+
+.container{
+	display: flex;
+	height: 75vh;
+}
+
+
+/*esta parte es para las tres imagenes responsivas*/
+
+.sequence{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+	grid-gap: 10px;
+}
+
+.inside > img {
+	width: 100%;
+}
+
+.inside{
+	background-color: black;
+	margin: 20px;
+}
+
+
+/*esta parte es para el texto*/
+
+.info{
+	text-align: center;
+	font-size: 1.4em;
+	color: white;
+}
+
+/*esta parte es para el grid footer*/
+
+.meg{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr, 1fr));
+	grid-gap: 10px;
+	justify-items: center;
+}
+
+/*esta parte es el comentario final*/
+
+.info2{
+	text-align: center;
+	font-size: 0.8em;
+	color: white;
+}
+
+
+
+
+
